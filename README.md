@@ -1,7 +1,8 @@
-# SK_PY_Framework_Flask
+# SK_PY_Framework_Flask学习日志
 
 #### 介绍
-SK_PY_Framework_Flask
+SK_PY_Framework_Flask的.py文件
+
 
 #### 软件架构
 软件架构说明
