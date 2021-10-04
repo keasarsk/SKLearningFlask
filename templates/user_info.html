@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+{% extends "default.html" %}
+
+{% block body %}
+    {% for key in user_info %}
+
+        {{ key }}: {{ user_info[key] }}
+        <!-- 变量user_info应该是一个字典，for循环用来循环输出键值对 -->
+
+
+    {% endfor %}
+{% endblock %}

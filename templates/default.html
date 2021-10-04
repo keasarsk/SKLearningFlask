@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% if page_title %}
+            {{ page_title }}
+        {% endif %}
+    </title>
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
+
+<!-- 在title标签中使用了if判断，如果给模板传递了`page_title`变量，显示之，否则，不显示。
+
+body标签中定义了一个名为`body`的block，用来被其他模板文件继承。 -->
+
+
+
